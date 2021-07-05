@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//TODO: Need to test this code
 int numAnagrams(vector<string> myStrings, string word){
     unordered_map<char, int> fw;
     for(char c='a';c<='z';c++)
@@ -33,5 +34,8 @@ int numAnagrams(vector<string> myStrings, string word){
 
 
 int main(){
+    vector<string> myStrings = {"harsha","anjani"};
+    string word = "arshah";
+    cout << numAnagrams(myStrings,word);
     return 0;
 }
