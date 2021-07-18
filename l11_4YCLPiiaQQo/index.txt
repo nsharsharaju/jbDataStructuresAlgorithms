@@ -1,0 +1,1 @@
+In this lecture we will discuss about Insertion and Deletion of a Node in LinkedList
