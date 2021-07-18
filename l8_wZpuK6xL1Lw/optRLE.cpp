@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//TODO: This code is not working, need to work on it
+//TODO: This code is may be not working, need to work on it
 void solve()
 {
     string s;
@@ -12,7 +12,7 @@ void solve()
     string tempCnt = "";
     for (int i = 1; i < s.length(); i++)
     {
-        if ('0' <= s[i] <= '9')
+        if ('0' <= s[i] && s[i] <= '9')
         {
             tempCnt += s[i];
         }
